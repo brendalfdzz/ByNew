@@ -397,7 +397,7 @@ header {
 }
 
 .titulo-donacion h1 {
-    font-family: 'Raleway', sans-serif;;
+    font-family: 'Raleway', sans-serif;
     font-size: 25px;
     padding-left: 35px;
     padding-top: 12px;
@@ -413,7 +413,7 @@ header {
 }
 
 .titulo-condiciones {
-    font-family: 'Raleway', sans-serif;;
+    font-family: 'Raleway', sans-serif;
     font-size: 20px;
     padding-left: 35px;
     padding-top: 25px;
@@ -452,7 +452,7 @@ header {
 .button-alternativas button {
     background-color: #eadfdb;
     color: #736f57;
-    font-family: 'Raleway', sans-serif;;
+    font-family: 'Raleway', sans-serif;
     border: none;
     font-size: 18px;
     border-radius: 30px;
@@ -639,7 +639,7 @@ header {
 }
 
 .titulo-reciclaje h1 {
-    font-family: 'Raleway', sans-serif;;
+    font-family: 'Raleway', sans-serif;
     font-size: 25px;
     padding-left: 35px;
     padding-top: 12px;
@@ -655,7 +655,7 @@ header {
 }
 
 .titulo-condiciones-reciclar {
-    font-family: 'Raleway', sans-serif;;
+    font-family: 'Raleway', sans-serif;
     font-size: 20px;
     padding-left: 35px;
     padding-top: 25px;
@@ -694,7 +694,7 @@ header {
 .botones-alternativas-reciclar button {
     background-color: #eadfdb;
     color: #736f57;
-    font-family: 'Raleway', sans-serif;;
+    font-family: 'Raleway', sans-serif;
     border: none;
     font-size: 18px;
     border-radius: 30px;
@@ -880,7 +880,7 @@ header {
 }
 
 .titulo-reutilizar h1 {
-    font-family: 'Raleway', sans-serif;;
+    font-family: 'Raleway', sans-serif;
     font-size: 25px;
     padding-left: 35px;
     padding-top: 12px;
@@ -944,7 +944,7 @@ header {
 }
 
 .titulo-idea h1 {
-    font-family: 'Raleway', sans-serif;;
+    font-family: 'Raleway', sans-serif;
     font-size: 25px;
     padding-left: 35px;
     padding-top: 12px;
@@ -1015,4 +1015,235 @@ iframe {
     font-size: 20px;
     color: #93928e;
     justify-content: flex-start;
+}
+
+.icono-menu {
+    display: none;
+}
+
+
+/*main responsivo*/
+@media (max-width: 650px) {
+    body {
+        padding: 10px;
+    }
+
+    /*header responsivo*/
+    header {
+        width: auto;
+        height: 50px;
+        margin-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 25px;
+    }
+
+    .header-logo img {
+        width: 85px;
+    }
+
+    .header-links {
+        display: none;
+    }
+
+    .icono-perfil {
+        display: none;
+    }
+
+    .icono-menu {
+        display: block;
+        font-size: 22px;
+        color: #79735e;
+    }
+
+    /* hero */
+    #carrusel {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .carousel-item img {
+        width: 100%;
+        height: 350px;
+        border-radius: 25px;
+    }
+
+    .contenido-hero1 {
+        top: 55px;
+        left: 25px;
+    }
+
+    .contenido-hero1 p:nth-of-type(1) {
+        font-size: 9px;
+        letter-spacing: 1px;
+        padding-bottom: 12px;
+        margin-bottom: 0;
+    }
+
+    .contenido-hero1 h1 {
+        font-size: 45px;
+        line-height: 43px;
+        margin-top: 0;
+        margin-bottom: 12px;
+    }
+
+    .contenido-hero1 p:nth-of-type(2) {
+        font-size: 7px;
+        letter-spacing: 1px;
+        margin-bottom: 15px;
+    }
+
+    .button-hero {
+        margin-top: 16px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 12px;
+        padding-right: 12px;
+        font-size: 11px;
+    }
+
+    .contenido-hero2 > h1 {
+        font-size: 48px;
+        line-height: 45px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /*estadisticas responsivas*/
+    .estadisticas {
+        width: auto;
+        grid-template-columns: 2fr 1fr;
+        gap: 10px;
+        padding: 15px;
+        border-radius: 20px;
+    }
+
+    .datos-estadistica {
+        gap: 6px;
+    }
+
+    .cantidad {
+        font-size: 24px;
+    }
+
+    .descripcion-dato {
+        font-size: 8px;
+        text-align: center;
+    }
+
+    .linea {
+        width: 1px;
+        height: 40px;
+    }
+
+    .descripcion-mensaje {
+        font-size: 9px;
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+
+    .enlace-mensaje a {
+        font-size: 9px;
+    }
+
+    /* opciones */
+    .opciones {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 7px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .opcion {
+        height: 190px;
+    }
+
+    .img-opcion {
+        border-radius: 18px;
+    }
+
+    .opcion h2 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .informacion-hover {
+        padding: 10px;
+        border-radius: 18px;
+        font-size: 9px;
+    }
+
+    .informacion {
+        grid-template-columns: 2fr 1fr;
+        gap: 7px;
+    }
+
+    .texto-informacion {
+        padding: 15px;
+        padding-bottom: 10px;
+        border-radius: 18px;
+    }
+
+    .nosotros-informacion {
+        font-size: 10px;
+        margin-top: 0;
+    }
+
+    .enlaces-informacion h1 {
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    .img-informacion img {
+        border-radius: 18px;
+    }
+
+    /*footer responsivo*/
+    .footer {
+        width: auto;
+        height: auto;
+        padding: 20px 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+    }
+
+    .logo-footer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo-footer img {
+        width: 190px;
+    }
+
+    .elementos-footer {
+        width: 100%;
+        align-items: center;
+        padding-right: 0;
+        padding-top: 15px;
+    }
+
+    .redes-footer {
+        gap: 20px;
+    }
+
+    .redes-footer a {
+        font-size: 18px;
+    }
+
+    .opciones-footer {
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 8px;
+    }
+
+    .opciones-footer a {
+        font-size: 9px;
+        text-align: center;
+        padding-top: 0;
+    }
 }
